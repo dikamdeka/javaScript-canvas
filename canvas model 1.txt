@@ -1,0 +1,139 @@
+function init(){
+	
+
+	var canvas=document.getElementById("canvas");
+	
+	if(canvas.getContext){
+		
+		var ctx=canvas.getContext("2d");
+		
+		ctx.fillStyle="lime";
+		ctx.fillRect(200,100,100,100);
+	
+		ctx.fillStyle="purple";
+		ctx.beginPath();
+		ctx.moveTo(200,200);
+		ctx.lineTo(250,200);
+		ctx.lineTo(250,300);
+		ctx.closePath();
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.moveTo(300,200);
+		ctx.lineTo(250,200);
+		ctx.lineTo(250,300);
+		ctx.closePath();
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.moveTo(300,200);
+		ctx.lineTo(300,150);
+		ctx.lineTo(400,150);
+		ctx.closePath();
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.moveTo(300,100);
+		ctx.lineTo(300,150);
+		ctx.lineTo(400,150);
+		ctx.closePath();
+		ctx.fill();
+		
+		
+		ctx.beginPath();
+		ctx.moveTo(300,100);
+		ctx.lineTo(250,100);
+		ctx.lineTo(250,0);
+		ctx.closePath();
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.moveTo(200,100);
+		ctx.lineTo(250,100);
+		ctx.lineTo(250,0);
+		ctx.closePath();
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.moveTo(200,100);
+		ctx.lineTo(200,150);
+		ctx.lineTo(100,150);
+		ctx.closePath();
+		ctx.fill();
+		
+		ctx.beginPath();
+		ctx.moveTo(200,200);
+		ctx.lineTo(200,150);
+		ctx.lineTo(100,150);
+		ctx.closePath();
+		ctx.fill();
+		
+		
+		ctx.strokeStyle="red";
+		
+		ctx.beginPath();
+		ctx.moveTo(200,200);
+		ctx.lineTo(250,200);
+		ctx.lineTo(250,300);
+		ctx.closePath();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.moveTo(300,200);
+		ctx.lineTo(250,200);
+		ctx.lineTo(250,300);
+		ctx.closePath();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.moveTo(300,200);
+		ctx.lineTo(300,150);
+		ctx.lineTo(400,150);
+		ctx.closePath();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.moveTo(300,100);
+		ctx.lineTo(300,150);
+		ctx.lineTo(400,150);
+		ctx.closePath();
+		ctx.stroke();
+		
+		
+		ctx.beginPath();
+		ctx.moveTo(300,100);
+		ctx.lineTo(250,100);
+		ctx.lineTo(250,0);
+		ctx.closePath();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.moveTo(200,100);
+		ctx.lineTo(250,100);
+		ctx.lineTo(250,0);
+		ctx.closePath();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.moveTo(200,100);
+		ctx.lineTo(200,150);
+		ctx.lineTo(100,150);
+		ctx.closePath();
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.moveTo(200,200);
+		ctx.lineTo(200,150);
+		ctx.lineTo(100,150);
+		ctx.closePath();
+		ctx.stroke();
+		
+		
+	}
+	
+	
+} 
+
+
+
+onload=init;
